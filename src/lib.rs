@@ -1,10 +1,9 @@
 // Library modules
-pub mod storage;
+pub mod api;
 pub mod extraction;
 pub mod indexing;
 pub mod query;
-pub mod api;
+pub mod storage;
 
 // Re-export commonly used types
 pub use storage::*;
-pub use extraction::*;
